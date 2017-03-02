@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eWaySharedMethod", "eWaySharedMethod\eWaySharedMethod.csproj", "{B506FD2D-688F-446F-ABDA-7870321A54EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestEwayService", "TestEwayService\TestEwayService.csproj", "{59BCC1BD-E752-449F-834E-B6F208535A2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B506FD2D-688F-446F-ABDA-7870321A54EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B506FD2D-688F-446F-ABDA-7870321A54EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B506FD2D-688F-446F-ABDA-7870321A54EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B506FD2D-688F-446F-ABDA-7870321A54EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59BCC1BD-E752-449F-834E-B6F208535A2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59BCC1BD-E752-449F-834E-B6F208535A2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59BCC1BD-E752-449F-834E-B6F208535A2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59BCC1BD-E752-449F-834E-B6F208535A2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

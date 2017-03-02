@@ -1,0 +1,22 @@
+﻿
+
+<h4> Using Token - with customer results</h4>
+ 
+@if (ViewBag.response.TransactionStatus.Status)
+{
+
+    <a> Transaction was successfully</a> <br />
+    <a>This is your token id @ViewBag.token</a>    <br />
+ 
+    <a> Transaction Invoice Number is @ViewBag.response.Transaction.PaymentDetails.InvoiceNumber</a><br />
+    <a> Customer for this transaction is @ViewBag.response.Transaction.Customer.FirstName @ViewBag.response.Transaction.Customer.LastName</a> <br />
+ 
+    <a> Total Cost is  $@ViewBag.totalamount dollars </a> <br/>
+}
+else
+{
+    <a>Transaction was not successfully</a>
+}
+
+<a href="/Home/Index">Back to Home</a>
+

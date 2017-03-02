@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Scenario";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<h4 style="text-align:center">Scenario @ViewBag.number </h4> <br />
+
+<container style="position:relative">
+    <img src="@string.Format("/Content/images/Eway-S{0}.jpg",@ViewBag.number)" alt="@string.Format("Scenario {0}",@ViewBag.number)" style="width:604px;height:728px; position:absolute; left:360px">
+    <a href="/Home/Index" style="width:604px;height:728px; position:absolute; top:800px;  left:460px">Back to Home</a>
+</container>
+

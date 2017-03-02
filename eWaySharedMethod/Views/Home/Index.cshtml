@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h3>Eway Features</h3>
+    <a href="~/Home/Scenario?number=1"> Scenario 1  </a>  <br />
+    <a href="~/Home/Scenario?number=2"> Scenario 2  </a>  <br />
+    @*<a>Prerequisite</a> <br />
+    <p>-Need to have api key and password from eWay</p>
+    <p>-Download and setup C# Microsoft Aspnet environment by following this link </p>
+
+    <a href="https://github.com/eWAYPayment/eway-rapid-net"> Sample code at github for AspNet </a> <br />
+   
+    <a href ="https://eway.io/nz/developers/sdk/net"> Documentation for Sdk AspNet </a> <br />*@
+
+        <h3>Using Eway to create a token using responsive shared page</h3>
+        <a href="http://localhost:53738/Home/TokenNoPayment">Click here for token with no payment</a> <br />
+        <a href="http://localhost:53738/Home/TokenWithPayment">Click here for token with payment</a>
+        <h3> Using the Eway token to charge a customer using direct </h3>
+    <a href="http://localhost:53738/Home/UseToken?token=911505704305">Click here to use token for payment</a>
+        <h3> Update a Eway token with more customer details</h3>
+        <a href="http://localhost:53738/Home/Updatetokendetails?tokenid=910287958561">Click here update token details</a><br />
+        <a class="btn btn-primary" href="http://localhost:53738/Home/Subscription?id=272">Subscription</a> <br />
+        <a href="https://eway.io/api-v3/?csharp#">More documentation on using EWay API on Asp .Net </a>
+</div>

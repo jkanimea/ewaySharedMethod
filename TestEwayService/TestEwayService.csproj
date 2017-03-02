@@ -1,0 +1,713 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{59BCC1BD-E752-449F-834E-B6F208535A2A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestEwayService</RootNamespace>
+    <AssemblyName>TestEwayService</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AchievementTracking.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Activity.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityInstance.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityInstance_Child.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityInstance_Condition.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityInstance_Staff.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ActivityItem.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Activity_Condition.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AimyEntity.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AimyEntity.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AimyEntity.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AimyEntity.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AimyEntity.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="AppliedDiscount.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AttendanceData.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Attendance_Portfolio.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Audit.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BatchTimeSheet.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Billing.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BillingDiscount.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BillingExtra.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Booking.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BookingAudit.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BookingHistoryLookup.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BookingTemplate.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BookingTemplateQueue.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BookingTemplateQueue_Child.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BookingTypeRule.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Booking_Spt.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Child.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChildDiscount.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChildDiscountHistoryLookup.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ChildNote.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Child_Condition.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Child_Contact.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Child_Media.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Child_Timeline.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="City.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Condition.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ContactGroup.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CopyDataOption.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Country.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CreditNote.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CreditNote_LineItem.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CssBilling.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CssBillingGroup.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CssBillingGroup_Org.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CssBillingPlan.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CssBillingPlanDetail.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CssBillingRule.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CssCreditCardAccessCode.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CssInvoice.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CssInvoiceLine.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CssLookup.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CssPaymentSetup.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CssSetting.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CssSubscription.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CssSysAdminUser.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DailyAttendance.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardMessage.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DashboardViewHistory.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultBillingDiscount.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DefaultTerm.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DeletingInvoiceQueue.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EventDuration.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ExcludeDay.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FinancialHistory.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FlyerTemplate.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Form.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FormField.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FormFieldValue.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FormInstance.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FormTemplate.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Guardian_Child.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HeadCount.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="HeadCountLine.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ImpersonateUserHistory.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Invoice.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceLine.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="InvoicePayment.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Language.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Library.cs" />
+    <Compile Include="Lookup.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Medium.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="MessageHistory.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Note.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Notification.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NotificationInstance.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="NotificationReminder.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Notification_User.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Org.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrgCustomize.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrgDesign.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrgEmailBodyTemplate.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrgNotificationSetting.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrgReference.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrgReferenceSetting.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrgSetting.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OrgTandC.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Org_Child.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Org_Contact.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Org_CSS_BillingRule.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Org_Testing_Subscription.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Org_User.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OscarCoC.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OscarDeclaration.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OscarDelaration_Child.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OscarRenewalFormTracking.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OscarSetting.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OscarTracking.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OscarTracking_Child.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="OutgoingMessage.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentBatch.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PaymentSource.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Permission.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Permission_User.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PortfolioSetting.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramCategory.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program_Media.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program_Session.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program_Tags.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ProjectInstaller.Designer.cs">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PromoCode.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PromoCodeUsage.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PromoMsgTemplate.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="PublicHoliday.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="QrCode.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Rating.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Report.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportPeriod.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportSubscriber.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ReportSubscription.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="RollCallQueue.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Scheduler.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Scheduler.Designer.cs">
+      <DependentUpon>Scheduler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="School.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="School_Contact.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="School_Org.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="School_Temporary.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SelectedInvoice.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Session.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SessionDiscount.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SignoutSignature.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SiteDPSDetail.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SiteGroup.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SiteGroup_Booking_Spt.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SiteNote.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SitePaymentGateway.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SitePaymentMethod.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Site_PaymentOption.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Site_Program_Term.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spt_ExcludeDays.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spt_Instance.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spt_Session.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Spt_SiteGroup.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StaffAvailability.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StaffClock.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StaffClockSignature.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StaffRoster.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StaffRosterHistory.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="StaffRosterStage.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Subsidy.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SubsidyPayment.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SubsidyPaymentIndex.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TempManualPayment.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Term.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Territory.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Timeline.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="TimeSheet.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tmpContact.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tmpImport.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tmpUser_Contact.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="User.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="UserOrgAccess.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="User_Child.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="User_Contact.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="User_FavouriteSites.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="User_Message.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="User_OscarSetting.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="User_Permission.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XeroAccountCode.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XeroContact.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XeroCreditNoteQueue.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XeroCSSAccountCode.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XeroCSSInvoiceQueue.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XeroCSSInvoiceUpdateQueue.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XeroEditBookingQueue.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XeroEditInvoiceQueue.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XeroInvErrorQueue.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XeroInvoice.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XeroInvoiceLine.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XeroInvoiceQueue.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XeroItemCode.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XeroLookup.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XeroPaymentQueue.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XeroProcessorState.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XeroSubsidyPaymentQueue.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XeroTrackingCategory.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="XeroTrackingCatOption.cs">
+      <DependentUpon>AimyEntity.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="AimyEntity.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>AimyEntity.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="AimyEntity.edmx.diagram">
+      <DependentUpon>AimyEntity.edmx</DependentUpon>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ProjectInstaller.resx">
+      <DependentUpon>ProjectInstaller.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AimyEntity.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AimyEntity.edmx</DependentUpon>
+      <LastGenOutput>AimyEntity.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="AimyEntity.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AimyEntity.edmx</DependentUpon>
+      <LastGenOutput>AimyEntity.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Subscription";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Subscription</h3>
+
+
+@if (ViewBag.response.TransactionStatus.Status)
+{
+
+    <a> Subscription was paid successfully</a> <br />
+   <a> Transaction Invoice Number is @ViewBag.response.Transaction.PaymentDetails.InvoiceNumber</a><br />
+    <a> Total Cost is  $@ViewBag.totalamount dollars </a> <br/>
+}
+else
+{
+    <a>Subscription was not successfully</a>
+}
+
+
+

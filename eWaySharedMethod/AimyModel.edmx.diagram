@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9d03e31aa67a4b01a813a5ee0e02733f" Name="Diagram1">
+        <EntityTypeShape EntityType="AimyModel.AchievementTracking" Width="1.5" PointX="30.5" PointY="295.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Activity" Width="1.5" PointX="3" PointY="306.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Activity_Condition" Width="1.5" PointX="5.25" PointY="301" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.ActivityInstance" Width="1.5" PointX="12.75" PointY="386" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.ActivityInstance_Child" Width="1.5" PointX="15" PointY="355" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.ActivityInstance_Condition" Width="1.5" PointX="15" PointY="387.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.ActivityInstance_Staff" Width="1.5" PointX="18" PointY="387.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.ActivityItem" Width="1.5" PointX="13.25" PointY="297.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.AppliedDiscount" Width="1.5" PointX="28.5" PointY="418.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Attendance" Width="1.5" PointX="22.5" PointY="392.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Attendance_Portfolio" Width="1.5" PointX="25.75" PointY="360.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Audit" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.BatchTimeSheet" Width="1.5" PointX="10.5" PointY="248.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Billing" Width="1.5" PointX="6" PointY="304.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.BillingDiscount" Width="1.5" PointX="8.25" PointY="297.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.BillingExtra" Width="1.5" PointX="15" PointY="414.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Booking" Width="1.5" PointX="18" PointY="409.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Booking_Spt" Width="1.5" PointX="20.25" PointY="466.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.BookingAudit" Width="1.5" PointX="16.5" PointY="312.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.BookingHistoryLookup" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.BookingTemplate" Width="1.5" PointX="10.5" PointY="252" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.BookingTemplateQueue" Width="1.5" PointX="3" PointY="301.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.BookingTemplateQueue_Child" Width="1.5" PointX="13.5" PointY="311.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.BookingTypeRule" Width="1.5" PointX="3" PointY="317.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Child" Width="1.5" PointX="5.25" PointY="321.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Child_Condition" Width="1.5" PointX="16.5" PointY="334.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Child_Contact" Width="1.5" PointX="13.5" PointY="337.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Child_Media" Width="1.5" PointX="30.75" PointY="318.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Child_Timeline" Width="1.5" PointX="21.75" PointY="336.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.ChildDiscount" Width="1.5" PointX="26.25" PointY="365.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.ChildDiscountHistoryLookup" Width="1.5" PointX="31.5" PointY="361.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.ChildNote" Width="1.5" PointX="7.5" PointY="366.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.City" Width="1.5" PointX="25.5" PointY="286.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Condition" Width="1.5" PointX="3" PointY="296.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Contact" Width="1.5" PointX="3" PointY="322" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.ContactGroup" Width="1.5" PointX="19.5" PointY="321.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.CopyDataOption" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Country" Width="1.5" PointX="23.25" PointY="291.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.CreditNote" Width="1.5" PointX="16.25" PointY="305.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.CreditNote_LineItem" Width="1.5" PointX="18.5" PointY="403.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.CssBilling" Width="1.5" PointX="21.75" PointY="340.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.CssBillingGroup" Width="1.5" PointX="10.5" PointY="261.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.CssBillingGroup_Org" Width="1.5" PointX="15.75" PointY="291.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.CssBillingPlan" Width="1.5" PointX="6" PointY="297.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.CssBillingPlanDetail" Width="1.5" PointX="17.25" PointY="340.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.CssBillingRule" Width="1.5" PointX="20.25" PointY="290.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.CssCreditCardAccessCode" Width="1.5" PointX="10.5" PointY="266" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.CssInvoice" Width="1.5" PointX="10.5" PointY="271.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.CssInvoiceLine" Width="1.5" PointX="12.75" PointY="268.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.CssLookup" Width="1.5" PointX="18" PointY="290.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.CssPaymentSetup" Width="1.5" PointX="10.5" PointY="280.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.CssSetting" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.CssSubscription" Width="1.5" PointX="19.5" PointY="326.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.CssSysAdminUser" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.DailyAttendance" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.DashboardMessage" Width="1.5" PointX="10.5" PointY="289.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.DashboardViewHistory" Width="1.5" PointX="33.75" PointY="322.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.DefaultBillingDiscount" Width="1.5" PointX="16.5" PointY="317.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.DefaultTerm" Width="1.5" PointX="9.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.DeletingInvoiceQueue" Width="1.5" PointX="23.25" PointY="359.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.EventDuration" Width="1.5" PointX="13.5" PointY="302.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.ExcludeDay" Width="1.5" PointX="10.5" PointY="293.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.FinancialHistory" Width="1.5" PointX="10.5" PointY="297.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.FlyerTemplate" Width="1.5" PointX="10.5" PointY="302.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Form" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.FormField" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.FormFieldValue" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.FormInstance" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.FormTemplate" Width="1.5" PointX="3" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Guardian_Child" Width="1.5" PointX="7.5" PointY="337.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.HeadCount" Width="1.5" PointX="10.5" PointY="330.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.HeadCountLine" Width="1.5" PointX="28.75" PointY="360" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.ImpersonateUserHistory" Width="1.5" PointX="13.5" PointY="307.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Invoice" Width="1.5" PointX="16.25" PointY="295.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.InvoiceLine" Width="1.5" PointX="22.5" PointY="409.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.InvoicePayment" Width="1.5" PointX="18.5" PointY="300.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Language" Width="1.5" PointX="7.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Lookup" Width="1.5" PointX="0.75" PointY="305.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Medium" Width="1.5" PointX="21.5" PointY="305.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.MessageHistory" Width="1.5" PointX="22.5" PointY="317.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Note" Width="1.5" PointX="9.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Notification" Width="1.5" PointX="3" PointY="334.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Notification_User" Width="1.5" PointX="16.5" PointY="325.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.NotificationInstance" Width="1.5" PointX="22.5" PointY="322.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.NotificationReminder" Width="1.5" PointX="10.5" PointY="335.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Org" Width="1.5" PointX="8.25" PointY="302.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Org_Child" Width="1.5" PointX="21.5" PointY="301.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Org_Contact" Width="1.5" PointX="18.5" PointY="308.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Org_CSS_BillingRule" Width="1.5" PointX="22.5" PointY="312.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Org_Testing_Subscription" Width="1.5" PointX="11.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Org_User" Width="1.5" PointX="24.5" PointY="307.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.OrgCustomize" Width="1.5" PointX="25.5" PointY="314.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.OrgDesign" Width="1.5" PointX="22.5" PointY="328.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.OrgEmailBodyTemplate" Width="1.5" PointX="7.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.OrgNotificationSetting" Width="1.5" PointX="24.5" PointY="303.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.OrgReference" Width="1.5" PointX="10.5" PointY="362.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.OrgReferenceSetting" Width="1.5" PointX="10.5" PointY="365.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.OrgSetting" Width="1.5" PointX="21" PointY="415.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.OrgTandC" Width="1.5" PointX="10.5" PointY="369" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.OscarCoC" Width="1.5" PointX="25.5" PointY="325.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.OscarDeclaration" Width="1.5" PointX="31.5" PointY="322.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.OscarDelaration_Child" Width="1.5" PointX="28.5" PointY="331.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.OscarRenewalFormTracking" Width="1.5" PointX="13.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.OscarSetting" Width="1.5" PointX="10.5" PointY="389.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.OscarTracking" Width="1.5" PointX="27.5" PointY="303.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.OscarTracking_Child" Width="1.5" PointX="13.5" PointY="391.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.OutgoingMessage" Width="1.5" PointX="13.5" PointY="315.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Payment" Width="1.5" PointX="32.75" PointY="305.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.PaymentBatch" Width="1.5" PointX="28.5" PointY="314.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.PaymentSource" Width="1.5" PointX="18.5" PointY="296.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Permission" Width="1.5" PointX="3" PointY="338.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Permission_User" Width="1.5" PointX="13.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.PortfolioSetting" Width="1.5" PointX="10.5" PointY="414.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Program" Width="1.5" PointX="24" PointY="415.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Program_Media" Width="1.5" PointX="29.25" PointY="365.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Program_Session" Width="1.5" PointX="26.25" PointY="462.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Program_Tags" Width="1.5" PointX="26.25" PointY="427.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.ProgramCategory" Width="1.5" PointX="19.5" PointY="331.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.PromoCode" Width="1.5" PointX="28.5" PointY="321.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.PromoCodeUsage" Width="1.5" PointX="33.75" PointY="317.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.PublicHoliday" Width="1.5" PointX="25.5" PointY="283.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.QrCode" Width="1.5" PointX="13.5" PointY="321.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Rating" Width="1.5" PointX="5.25" PointY="317.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Report" Width="1.5" PointX="10.5" PointY="450.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.ReportPeriod" Width="1.5" PointX="12.75" PointY="450.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.ReportSubscriber" Width="1.5" PointX="17.25" PointY="376" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.ReportSubscription" Width="1.5" PointX="15" PointY="375.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.RollCallQueue" Width="1.5" PointX="24.75" PointY="398.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.School" Width="1.5" PointX="6" PointY="341" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.School_Contact" Width="1.5" PointX="11.25" PointY="326.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.School_Org" Width="1.5" PointX="22.5" PointY="332.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.SelectedInvoice" Width="1.5" PointX="13.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Session" Width="1.5" PointX="12.75" PointY="408.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.SessionDiscount" Width="1.5" PointX="28.5" PointY="387.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.SignoutSignature" Width="1.5" PointX="5.25" PointY="484.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Site_PaymentOption" Width="1.5" PointX="3" PointY="343" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Site_Program_Term" Width="1.5" PointX="26.25" PointY="405.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.SiteDPSDetail" Width="1.5" PointX="10.5" PointY="463" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.SiteGroup" Width="1.5" PointX="10.5" PointY="466.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.SiteGroup_Booking_Spt" Width="1.5" PointX="22.5" PointY="467.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.SiteNote" Width="1.5" PointX="33.75" PointY="326.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.SitePaymentGateway" Width="1.5" PointX="10.5" PointY="471.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.SitePaymentMethod" Width="1.5" PointX="10.5" PointY="475.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Spt_ExcludeDays" Width="1.5" PointX="28.5" PointY="412.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Spt_Instance" Width="1.5" PointX="30.5" PointY="392.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Spt_Session" Width="1.5" PointX="28.5" PointY="415.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Spt_SiteGroup" Width="1.5" PointX="28.5" PointY="437.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.StaffAvailability" Width="1.5" PointX="13.5" PointY="325" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.StaffClock" Width="1.5" PointX="13.5" PointY="328.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.StaffClockSignature" Width="1.5" PointX="29" PointY="291.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.StaffRoster" Width="1.5" PointX="26.75" PointY="294.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.StaffRosterHistory" Width="1.5" PointX="29" PointY="287.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Subsidy" Width="1.5" PointX="25.5" PointY="336" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.SubsidyPayment" Width="1.5" PointX="27.75" PointY="394.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.SubsidyPaymentIndex" Width="1.5" PointX="25.5" PointY="395.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.sysdiagram" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.TempManualPayment" Width="1.5" PointX="15.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Term" Width="1.5" PointX="10.5" PointY="479.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Territory" Width="1.5" PointX="10.5" PointY="485.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Timeline" Width="1.5" PointX="13.5" PointY="333.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.TimeSheet" Width="1.5" PointX="13.5" PointY="290.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.tmpContact" Width="1.5" PointX="15.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.tmpImport" Width="1.5" PointX="15.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.tmpUser_Contact" Width="1.5" PointX="17.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.User" Width="1.5" PointX="11.25" PointY="309.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.User_Child" Width="1.5" PointX="28.5" PointY="336.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.User_Contact" Width="1.5" PointX="19.5" PointY="318" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.User_FavouriteSites" Width="1.5" PointX="25.5" PointY="331.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.User_Message" Width="1.5" PointX="18.5" PointY="304.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.User_OscarSetting" Width="1.5" PointX="13.5" PointY="351" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.User_Permission" Width="1.5" PointX="16.5" PointY="330.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.UserOrgAccess" Width="1.5" PointX="28.5" PointY="328.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.XeroAccountCode" Width="1.5" PointX="10.5" PointY="496" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.XeroContact" Width="1.5" PointX="10.5" PointY="501.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.XeroCreditNoteQueue" Width="1.5" PointX="31.5" PointY="330" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.XeroCSSAccountCode" Width="1.5" PointX="17.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.XeroCSSInvoiceQueue" Width="1.5" PointX="12.75" PointY="273.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.XeroCSSInvoiceUpdateQueue" Width="1.5" PointX="12.75" PointY="277.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.XeroEditBookingQueue" Width="1.5" PointX="16.5" PointY="322.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.XeroEditInvoiceQueue" Width="1.5" PointX="31.5" PointY="314.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.XeroInvErrorQueue" Width="1.5" PointX="26.75" PointY="290.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.XeroInvoice" Width="1.5" PointX="19.5" PointY="311.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.XeroInvoiceLine" Width="1.5" PointX="21.75" PointY="296.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.XeroInvoiceQueue" Width="1.5" PointX="24.5" PointY="299.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.XeroItemCode" Width="1.5" PointX="10.5" PointY="508.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.XeroLookup" Width="1.5" PointX="18.75" PointY="419.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.XeroPaymentQueue" Width="1.5" PointX="36" PointY="317.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.XeroProcessorState" Width="1.5" PointX="10.5" PointY="520.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.XeroSubsidyPaymentQueue" Width="1.5" PointX="30" PointY="350.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.XeroTrackingCategory" Width="1.5" PointX="10.5" PointY="525" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.XeroTrackingCatOption" Width="1.5" PointX="12.75" PointY="524.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.School_Temporary" Width="1.5" PointX="17.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.StaffRosterStage" Width="1.5" PointX="17.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.Anthony_view" Width="1.5" PointX="17.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.BookingView" Width="1.5" PointX="19.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.ParentUserView" Width="1.5" PointX="0.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AimyModel.TableLockView" Width="1.5" PointX="2.75" PointY="19.75" IsExpanded="true" />
+        <AssociationConnector Association="AimyModel.FK_AchievementTracking_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_AchievementTracking_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Activity_Condition_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Activity_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Activity_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ActivityInstance_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ActivityItem_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Rating_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Activity_Condition_Condition" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ActivityInstance_Attendance_ActivityInstance" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ActivityInstance_Condition_ActivityInstance" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ActivityInstance_Site_Program_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ActivityInstance_SiteGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ActivityInstance_Staff_ActivityInstance" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ActivityInstance_Child_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ActivityInstance_Condition_Condition" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ActivityInstance_Staff_StaffRoster" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ActivityItem_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_AppliedDiscount_Booking_Spt" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_AppliedDiscount_ChildDiscount" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Attendance_Booking_Spt" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Attendance_Portfolio_Attendance" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Attendance_Session" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Attendance_SignoutSignature" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Attendance_SignoutSignature1" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Attendance_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Booking_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_HeadCountLine_Attendance" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_RollCallQueue_Attendance" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Attendance_Portfolio_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Attendance_Portfolio_PortfolioSetting" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Attendance_Portfolio_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_BatchTimeSheets_Org1" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_TimeSheet_BatchTimeSheets" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Billing_BookingTemplate" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Billing_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Billing_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Billing_PromoCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Billing_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Billing_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_BillingDiscount_Billing" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_BillingExtra_Billing" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Booking_Billing" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_BookingAudit_Billing" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ChildDiscountHistoryLookup_Billing" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_CreditNote_Billing" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_DefaultBillingDiscount_Billing" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Invoice_Billing" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Payment_Billing" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroEditBookingQueue_Billing" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_BillingExtra_XeroItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_BillingExtra_XeroTrackingCatOption" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Booking_Child1" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Booking_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Booking_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Booking_ProgramCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Booking_Spt_Booking" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Booking_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Booking_XeroItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Booking_XeroTrackingCatOption" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ChildDiscountHistoryLookup_Booking" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Booking_Spt_Site_Program_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Booking_Spt_XeroItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Booking_Spt_XeroTrackingCatOption" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_InvoiceLine_Booking_Spt" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_SiteGroup_Booking_Spt_Booking_Spt" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_BookingAudit_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_BookingTemplate_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_BookingTemplateQueue_BookingTemplate" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_BookingTemplateQueue_Child_BookingTemplateQueue" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_BookingTemplateQueue_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_BookingTemplateQueue_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_BookingTemplateQueue_Child_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_BookingTypeRule_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Child_Condition_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Child_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Child_Contact_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Child_EmergencyContact1" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Child_EmergencyContact2" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Child_Media_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Child_School" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Child_Timeline_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ChildDiscount_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ChildNotes_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Guardian_Child_Child1" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Org_Child_Child1" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OscarDeclaration_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OscarDelaration_Child_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OscarTracking_Child_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_RollCallQueue_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Subsidy_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_User_Child_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Child_Condition_Condition" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Child_Contact_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Child_Media_Media" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Child_Timeline_Timeline" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ChildDiscount_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ChildDiscount_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ChildDiscount_ProgramCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ChildDiscountHistoryLookup_ChildDiscount" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_SessionDiscount_ChildDiscount" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ChildDiscountHistoryLookup_InvoiceLine" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_City_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Contact_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Guardian_Child_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Org_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Org_Contact_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_School_Contact_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_SignoutSignature_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_User_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_User_Contact_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ContactGroup_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ContactGroup_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgCustomize_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_PublicHoliday_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_CreditNote_AllocatedInvoice_CreditNote" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_CreditNote_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroCreditNoteQueue_CreditNote" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_CreditNote_AllocatedInvoice_Invoice" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_CreditNote_LineItem_XeroItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroCreditNote_AllocatedInvoice_OldInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_CssBilling_CssSubscription" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_CssBillingGroup_CssBillingGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_CssBillingGroup_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_CssBillingGroup_Org_CssBillingGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_CssBillingGroup_Org_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_CssBillingPlanDetails_CssBillingPlan" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Org_CssBillingPlan" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_CssBillingPlanDetails_CssBillingRule" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_CssSubscription_CssBillingPlanDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_CssBillingRule_CssLookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Org_CSS_BillingRule_CSS_BillingRule" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_CssCreditCardAccessCode_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_CSS_Invoice_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_CssInvoiceLine_CssInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroCSSInvoiceQueue_CssInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroCSSInvoiceUpdateQueue_CssInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_CssPaymentSetup_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_CssSubscription_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_DashboardMessage_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_User_Message_DashboardMessage" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_DashboardViewHistory_ProgramCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_DashboardViewHistory_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_DefaultBillingDiscount_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_DeletingInvoiceQueue_Invoice" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_DeletingInvoiceQueue_OrgSetting" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_EventDuration_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ExcludeDay_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_FinancialHistory_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_FlyerTemplate_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK__FormField__FormI__29D71569" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK__FormInsta__FormI__3B01A16B" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK__FormTempl__FormI__382534C0" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_FormFieldValue_FormField" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK__FormField__FormI__3ED2324F" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK__FormInsta__FormT__3BF5C5A4" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_HeadCount_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_HeadCountLine_HeadCount" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ImpersonateUser_ImpersonatedByUser" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ImpersonateUser_ImpersonatedUser" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Invoice_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_InvoiceLine_Invoice" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_InvoicePayment_Invoice" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Payment_Invoice" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Payment_Invoice1" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_SubsidyPayment_Invoice" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroEditInvoiceQueue_Invoice" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroInvoiceQueue_Invoice" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_InvoiceLine_XeroItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_InvoiceLine_XeroTrackingCatOption" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Media_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Notification_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Org_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgDesign_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgNotificationSetting_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Payment_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_PaymentBatch_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Permission_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ProgramCategory_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ProgramCategory_LookupPCType" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ProgramCategory_LookupSignInMethod" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ProgramCategory_LookupSignInStrategy" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ProgramCategory_LookupSignOutMethod" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ProgramCategory_LookupSignOutStrategy" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Site_PaymentOption_PaymentOption" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_SubsidyPayment_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_User_Contact_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_User_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Media_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Program_Media_Media" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_MessageHistory_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_MessageHistory_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Notification_User_Notification" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_NotificationInstance_Notification" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Notification_User_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_NotificationInstance_RealUser" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_NotificationInstance_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_NotificationReminder_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Org_Child_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Org_Contact_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Org_CSS_BillingRule_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Org_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Org_School" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Org_Territory" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Org_User_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgCustomize_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgDesign_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgNotificationSetting_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgReference_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgReferenceSetting_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgSetting_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgTandC_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OscarCoC_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OscarDeclaration_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OscarDelaration_Child_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OscarSetting_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OscarTracking_Child_Org1" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OscarTracking_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_PaymentBatch_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_PortfolioSetting_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Program_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ProgramCategory_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_PromoCode_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Report_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ReportSubscription_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_School_Org_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Session_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Site_Program_Term_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_SiteDPSDetail_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_SiteGroup_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_SiteNotes_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_SitePaymentGateway_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_SitePaymentMethod_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Spt_Instance_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_StaffRoster_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Term_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Territory_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_TimeSheet_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_User_FavouriteSites_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_UserOrgAccess_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroAccountCode_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroContact_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroCreditNoteQueue_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroEditBookingQueue_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroEditInvoiceQueue_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroInvoiceQueue_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroItemCode_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroPaymentQueue_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroProcessorState_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroSubsidyPaymentQueue_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroTrackingCategory_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Org_User_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgSetting_XeroAccountCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgSetting_XeroAccountCode1" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgSetting_XeroItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgSetting_XeroItemCode1" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgSetting_XeroItemCode10" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgSetting_XeroItemCode11" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgSetting_XeroItemCode2" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgSetting_XeroItemCode3" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgSetting_XeroItemCode4" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgSetting_XeroItemCode5" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgSetting_XeroItemCode6" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgSetting_XeroItemCode7" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgSetting_XeroItemCode8" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgSetting_XeroItemCode9" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgSetting_XeroLookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgSetting_XeroTrackingCatOption" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgSetting_XeroTrackingCatOption1" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgSetting_XeroTrackingCatOption2" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OrgSetting_XeroTrackingCatOption3" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OSCARBankAcc" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OscarCoC_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OscarDeclaration_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OscarDelaration_Child_Site_Program_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OscarDelaration_Child_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_User_OscarSetting_OscarSetting" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OscarTracking_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OscarTracking_Child_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OscarTracking_Child_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_OutgoingMessage_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Payment_PaymentBatch" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroPaymentQueue_Payment" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_PaymentBatch_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_User_Permission_Permission" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Program_Media_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Program_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Program_ProgramCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Program_Session_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Program_Tags_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Program_XeroCasualItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Program_XeroFullTimeItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Program_XeroHolFTItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Program_XeroHolPTAMItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Program_XeroHolPTPMItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Program_XeroHolShortItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Program_XeroHolTripItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Program_XeroPartTimeItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Program_XeroSpecialItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Program_XeroTrackingCatOption" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Site_Program_Term_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Spt_Instance_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Program_Session_Session" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Program_Session_XeroItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Site_Program_Term_ProgramCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_SiteNotes_ProgramCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_PromoCode_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_PromoCodeUsage_PromoCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_PromoCodeUsage_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_QrCode_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ReportPeriod_Report" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ReportSubscription_ReportPeriod" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_ReportSubscriber_ReportSubscription" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_RollCallQueue_SignoutSignature" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_School_Contact_School" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_School_Org_School" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_School_School" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Session_XeroItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_SessionDiscount_Session" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Site_Program_Term_Site_Program_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Site_Program_Term_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Site_Program_Term_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Site_Program_Term_XeroCasualItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Site_Program_Term_XeroFullTimeItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Site_Program_Term_XeroHolFullTimeItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Site_Program_Term_XeroHolPartTimeAMItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Site_Program_Term_XeroHolPartTimePMItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Site_Program_Term_XeroHolShortItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Site_Program_Term_XeroHolTripItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Site_Program_Term_XeroPartTimeItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Site_Program_Term_XeroSpecialItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Site_Program_Term_XeroTrackingCatOption" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Spt_ExcludeDays_Site_Program_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Spt_Instance_Site_Program_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Spt_Session_Site_Program_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Spt_SiteGroup_Site_Program_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_SiteGroup_Booking_SiteGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Spt_SiteGroup_SiteGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Spt_Instance_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_User_StaffAvailability" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_StaffClock_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_StaffClockSignature_StaffRoster" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_StaffRoster_StaffRoster" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_StaffRoster_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_StaffRosterHistory_StaffRoster" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_TimeSheet_StaffRoster" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Subsidy_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_SubsidyPayment_Subsidy" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_SubsidyPayment_SubsidyPaymentIndex" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_SubsidyPayment_XeroAccountCode" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroSubsidyPaymentQueue_SubsidyPayment" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Term_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_Timeline_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_TimeSheet_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_User_Child_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_User_Contact_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_User_FavouriteSites_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_User_Message_User_Message" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_User_OscarSetting_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_User_Permission_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_UserOrgAccess_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroInvoice_User" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroInvErrorQueue_XeroInvoiceQueue" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroInvoice_XeroLookup" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroInvoiceLine_XeroInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="AimyModel.FK_XeroTrackingCatOption_XeroTrackingCategory" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

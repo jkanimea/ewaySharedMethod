@@ -1,0 +1,7 @@
+C:\Users\jkanimea\Documents\Visual Studio 2013\Projects\eWaySharedMethod\TestEwayService\bin\Debug\TestEwayService.exe.config
+C:\Users\jkanimea\Documents\Visual Studio 2013\Projects\eWaySharedMethod\TestEwayService\bin\Debug\TestEwayService.exe
+C:\Users\jkanimea\Documents\Visual Studio 2013\Projects\eWaySharedMethod\TestEwayService\bin\Debug\TestEwayService.pdb
+C:\Users\jkanimea\Documents\Visual Studio 2013\Projects\eWaySharedMethod\TestEwayService\obj\Debug\TestEwayService.ProjectInstaller.resources
+C:\Users\jkanimea\Documents\Visual Studio 2013\Projects\eWaySharedMethod\TestEwayService\obj\Debug\TestEwayService.csproj.GenerateResource.Cache
+C:\Users\jkanimea\Documents\Visual Studio 2013\Projects\eWaySharedMethod\TestEwayService\obj\Debug\TestEwayService.exe
+C:\Users\jkanimea\Documents\Visual Studio 2013\Projects\eWaySharedMethod\TestEwayService\obj\Debug\TestEwayService.pdb

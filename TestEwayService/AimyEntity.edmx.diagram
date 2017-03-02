@@ -1,0 +1,575 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="066de77f658c4c868aa90b41f5007584" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.AchievementTracking" Width="1.5" PointX="28.5" PointY="333.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Activity" Width="1.5" PointX="3" PointY="310.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Activity_Condition" Width="1.5" PointX="5.25" PointY="305.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ActivityInstance" Width="1.5" PointX="12.75" PointY="391.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ActivityInstance_Child" Width="1.5" PointX="15" PointY="360.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ActivityInstance_Condition" Width="1.5" PointX="15" PointY="390" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ActivityInstance_Staff" Width="1.5" PointX="18" PointY="393" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ActivityItem" Width="1.5" PointX="13.25" PointY="302" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.AppliedDiscount" Width="1.5" PointX="28.5" PointY="424.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Attendance" Width="1.5" PointX="22.5" PointY="399.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Attendance_Portfolio" Width="1.5" PointX="25.75" PointY="365.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Audit" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BatchTimeSheet" Width="1.5" PointX="10.5" PointY="251.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Billing" Width="1.5" PointX="6" PointY="309.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BillingDiscount" Width="1.5" PointX="8.25" PointY="302.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BillingExtra" Width="1.5" PointX="15" PointY="420.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Booking" Width="1.5" PointX="18" PointY="415.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Booking_Spt" Width="1.5" PointX="20.25" PointY="473.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BookingAudit" Width="1.5" PointX="16.5" PointY="317.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BookingHistoryLookup" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BookingTemplate" Width="1.5" PointX="10.5" PointY="254.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BookingTemplateQueue" Width="1.5" PointX="3" PointY="306" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BookingTemplateQueue_Child" Width="1.5" PointX="13.5" PointY="316.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.BookingTypeRule" Width="1.5" PointX="3" PointY="322.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Child" Width="1.5" PointX="5.25" PointY="326.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Child_Condition" Width="1.5" PointX="16.5" PointY="338.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Child_Contact" Width="1.5" PointX="13.5" PointY="342.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Child_Media" Width="1.5" PointX="29.75" PointY="315.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Child_Timeline" Width="1.5" PointX="21.75" PointY="341.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ChildDiscount" Width="1.5" PointX="26.25" PointY="370.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ChildDiscountHistoryLookup" Width="1.5" PointX="30.75" PointY="363.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ChildNote" Width="1.5" PointX="7.5" PointY="371.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.City" Width="1.5" PointX="25.5" PointY="294.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Condition" Width="1.5" PointX="3" PointY="301.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Contact" Width="1.5" PointX="3" PointY="326.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ContactGroup" Width="1.5" PointX="19.5" PointY="326.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CopyDataOption" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Country" Width="1.5" PointX="23.25" PointY="295.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CreditNote" Width="1.5" PointX="16.25" PointY="310.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CreditNote_LineItem" Width="1.5" PointX="22.5" PointY="412.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CssBilling" Width="1.5" PointX="21.75" PointY="345.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CssBillingGroup" Width="1.5" PointX="10.5" PointY="263.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CssBillingGroup_Org" Width="1.5" PointX="15.75" PointY="296.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CssBillingPlan" Width="1.5" PointX="6" PointY="301" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CssBillingPlanDetail" Width="1.5" PointX="17.25" PointY="344.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CssBillingRule" Width="1.5" PointX="20.25" PointY="294.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CssCreditCardAccessCode" Width="1.5" PointX="10.5" PointY="268.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CssInvoice" Width="1.5" PointX="10.5" PointY="273.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CssInvoiceLine" Width="1.5" PointX="12.75" PointY="271.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CssLookup" Width="1.5" PointX="18" PointY="294.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CssPaymentSetup" Width="1.5" PointX="10.5" PointY="283.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CssSetting" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CssSubscription" Width="1.5" PointX="19.5" PointY="331.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CssSysAdminUser" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DailyAttendance" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DashboardMessage" Width="1.5" PointX="10.5" PointY="292.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DashboardViewHistory" Width="1.5" PointX="30.75" PointY="338.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DefaultBillingDiscount" Width="1.5" PointX="16.5" PointY="322" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DefaultTerm" Width="1.5" PointX="9.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DeletingInvoiceQueue" Width="1.5" PointX="23.25" PointY="364.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.EventDuration" Width="1.5" PointX="13.5" PointY="307.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ExcludeDay" Width="1.5" PointX="10.5" PointY="296.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.FinancialHistory" Width="1.5" PointX="10.5" PointY="300.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.FlyerTemplate" Width="1.5" PointX="10.5" PointY="305.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Form" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.FormField" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.FormFieldValue" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.FormInstance" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.FormTemplate" Width="1.5" PointX="3" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Guardian_Child" Width="1.5" PointX="7.5" PointY="342.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.HeadCount" Width="1.5" PointX="10.5" PointY="334.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.HeadCountLine" Width="1.5" PointX="28.75" PointY="369.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ImpersonateUserHistory" Width="1.5" PointX="13.5" PointY="312.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Invoice" Width="1.5" PointX="16.25" PointY="300.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.InvoiceLine" Width="1.5" PointX="28.5" PointY="412.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.InvoicePayment" Width="1.5" PointX="18.5" PointY="303" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Language" Width="1.5" PointX="7.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Lookup" Width="1.5" PointX="0.75" PointY="309.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Medium" Width="1.5" PointX="18.5" PointY="310.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.MessageHistory" Width="1.5" PointX="22.5" PointY="322.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Note" Width="1.5" PointX="9.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Notification" Width="1.5" PointX="3" PointY="339.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Notification_User" Width="1.5" PointX="16.5" PointY="330.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.NotificationInstance" Width="1.5" PointX="22.5" PointY="327.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.NotificationReminder" Width="1.5" PointX="10.5" PointY="340.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Org" Width="1.5" PointX="8.25" PointY="306.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Org_Child" Width="1.5" PointX="25.5" PointY="340.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Org_Contact" Width="1.5" PointX="21.5" PointY="313" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Org_CSS_BillingRule" Width="1.5" PointX="22.5" PointY="317.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Org_Testing_Subscription" Width="1.5" PointX="11.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Org_User" Width="1.5" PointX="24.5" PointY="312.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OrgCustomize" Width="1.5" PointX="25.5" PointY="319.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OrgDesign" Width="1.5" PointX="22.5" PointY="333.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OrgEmailBodyTemplate" Width="1.5" PointX="7.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OrgNotificationSetting" Width="1.5" PointX="21.5" PointY="308.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OrgReference" Width="1.5" PointX="10.5" PointY="365.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OrgReferenceSetting" Width="1.5" PointX="10.5" PointY="368.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OrgSetting" Width="1.5" PointX="21" PointY="422" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OrgTandC" Width="1.5" PointX="10.5" PointY="372.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OscarCoC" Width="1.5" PointX="25.5" PointY="330.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OscarDeclaration" Width="1.5" PointX="15.5" PointY="393.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OscarDelaration_Child" Width="1.5" PointX="30.5" PointY="310.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OscarRenewalFormTracking" Width="1.5" PointX="13.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OscarSetting" Width="1.5" PointX="10.5" PointY="392.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OscarTracking" Width="1.5" PointX="27.5" PointY="308.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OscarTracking_Child" Width="1.5" PointX="13.5" PointY="401.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.OutgoingMessage" Width="1.5" PointX="13.5" PointY="320" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Payment" Width="1.5" PointX="32.75" PointY="310.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PaymentBatch" Width="1.5" PointX="28.5" PointY="319.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PaymentSource" Width="1.5" PointX="18.5" PointY="298.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Permission" Width="1.5" PointX="3" PointY="343.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Permission_User" Width="1.5" PointX="13.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PortfolioSetting" Width="1.5" PointX="10.5" PointY="417.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Program" Width="1.5" PointX="24" PointY="421.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Program_Media" Width="1.5" PointX="26.25" PointY="376.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Program_Session" Width="1.5" PointX="26.25" PointY="469.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Program_Tags" Width="1.5" PointX="26.25" PointY="433.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ProgramCategory" Width="1.5" PointX="19.5" PointY="336.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PromoCode" Width="1.5" PointX="28.5" PointY="326.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PromoCodeUsage" Width="1.5" PointX="33.75" PointY="323.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PromoMsgTemplate" Width="1.5" PointX="10.5" PointY="453.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PublicHoliday" Width="1.5" PointX="25.5" PointY="291" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.QrCode" Width="1.5" PointX="13.5" PointY="326" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Rating" Width="1.5" PointX="5.25" PointY="322.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Report" Width="1.5" PointX="10.5" PointY="457.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ReportPeriod" Width="1.5" PointX="12.75" PointY="457.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ReportSubscriber" Width="1.5" PointX="17.25" PointY="381.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ReportSubscription" Width="1.5" PointX="15" PointY="381.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.RollCallQueue" Width="1.5" PointX="24.75" PointY="405" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.School" Width="1.5" PointX="6" PointY="345.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.School_Contact" Width="1.5" PointX="11.25" PointY="331.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.School_Org" Width="1.5" PointX="24.5" PointY="308.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SelectedInvoice" Width="1.5" PointX="13.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Session" Width="1.5" PointX="12.75" PointY="414.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SessionDiscount" Width="1.5" PointX="28.5" PointY="393.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SignoutSignature" Width="1.5" PointX="5.25" PointY="494.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Site_PaymentOption" Width="1.5" PointX="3" PointY="348" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Site_Program_Term" Width="1.5" PointX="26.25" PointY="411.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SiteDPSDetail" Width="1.5" PointX="10.5" PointY="470" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SiteGroup" Width="1.5" PointX="10.5" PointY="473.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SiteGroup_Booking_Spt" Width="1.5" PointX="22.5" PointY="474.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SiteNote" Width="1.5" PointX="33.75" PointY="328.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SitePaymentGateway" Width="1.5" PointX="10.5" PointY="478.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SitePaymentMethod" Width="1.5" PointX="10.5" PointY="482.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Spt_ExcludeDays" Width="1.5" PointX="28.5" PointY="418.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Spt_Instance" Width="1.5" PointX="28.5" PointY="398.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Spt_Session" Width="1.5" PointX="28.5" PointY="421.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Spt_SiteGroup" Width="1.5" PointX="28.5" PointY="443.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.StaffAvailability" Width="1.5" PointX="13.5" PointY="329.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.StaffClock" Width="1.5" PointX="13.5" PointY="333.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.StaffClockSignature" Width="1.5" PointX="27" PointY="300.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.StaffRoster" Width="1.5" PointX="24.75" PointY="300" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.StaffRosterHistory" Width="1.5" PointX="27" PointY="304.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Subsidy" Width="1.5" PointX="31.5" PointY="323.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SubsidyPayment" Width="1.5" PointX="33.75" PointY="400.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SubsidyPaymentIndex" Width="1.5" PointX="31.5" PointY="403.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.sysdiagram" Width="1.5" PointX="0.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.TempManualPayment" Width="1.5" PointX="15.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Term" Width="1.5" PointX="10.5" PointY="486.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Territory" Width="1.5" PointX="10.5" PointY="492.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Timeline" Width="1.5" PointX="13.5" PointY="338" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.TimeSheet" Width="1.5" PointX="13.5" PointY="294.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tmpContact" Width="1.5" PointX="15.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tmpImport" Width="1.5" PointX="15.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.tmpUser_Contact" Width="1.5" PointX="17.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.User" Width="1.5" PointX="11.25" PointY="313.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.User_Child" Width="1.5" PointX="31.5" PointY="330" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.User_Contact" Width="1.5" PointX="19.5" PointY="322.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.User_FavouriteSites" Width="1.5" PointX="25.5" PointY="336.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.User_Message" Width="1.5" PointX="18.5" PointY="307.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.User_OscarSetting" Width="1.5" PointX="13.5" PointY="354.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.User_Permission" Width="1.5" PointX="16.5" PointY="335.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.UserOrgAccess" Width="1.5" PointX="22.5" PointY="338" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.XeroAccountCode" Width="1.5" PointX="10.5" PointY="503.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.XeroContact" Width="1.5" PointX="10.5" PointY="509.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.XeroCreditNoteQueue" Width="1.5" PointX="31.5" PointY="333.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.XeroCSSAccountCode" Width="1.5" PointX="17.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.XeroCSSInvoiceQueue" Width="1.5" PointX="12.75" PointY="276.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.XeroCSSInvoiceUpdateQueue" Width="1.5" PointX="12.75" PointY="280" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.XeroEditBookingQueue" Width="1.5" PointX="16.5" PointY="327" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.XeroEditInvoiceQueue" Width="1.5" PointX="31.5" PointY="318.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.XeroInvErrorQueue" Width="1.5" PointX="32.75" PointY="306.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.XeroInvoice" Width="1.5" PointX="19.5" PointY="316.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.XeroInvoiceLine" Width="1.5" PointX="21.75" PointY="303.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.XeroInvoiceQueue" Width="1.5" PointX="30.5" PointY="306.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.XeroItemCode" Width="1.5" PointX="10.5" PointY="515.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.XeroLookup" Width="1.5" PointX="18.75" PointY="425.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.XeroPaymentQueue" Width="1.5" PointX="36" PointY="322" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.XeroProcessorState" Width="1.5" PointX="10.5" PointY="528.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.XeroSubsidyPaymentQueue" Width="1.5" PointX="36" PointY="356" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.XeroTrackingCategory" Width="1.5" PointX="10.5" PointY="532.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.XeroTrackingCatOption" Width="1.5" PointX="12.75" PointY="531.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.AttendanceData" Width="1.5" PointX="17.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.School_Temporary" Width="1.5" PointX="17.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.StaffRosterStage" Width="1.5" PointX="17.75" PointY="13.75" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_AchievementTracking_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_AchievementTracking_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Activity_Condition_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Activity_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Activity_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ActivityInstance_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ActivityItem_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Rating_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Activity_Condition_Condition" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ActivityInstance_Attendance_ActivityInstance" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ActivityInstance_Condition_ActivityInstance" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ActivityInstance_Site_Program_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ActivityInstance_SiteGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ActivityInstance_Staff_ActivityInstance" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ActivityInstance_Child_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ActivityInstance_Condition_Condition" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ActivityInstance_Staff_StaffRoster" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ActivityItem_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_AppliedDiscount_Booking_Spt" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_AppliedDiscount_ChildDiscount" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Attendance_Booking_Spt" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Attendance_Portfolio_Attendance" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Attendance_Session" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Attendance_SignoutSignature" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Attendance_SignoutSignature1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Attendance_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Booking_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_HeadCountLine_Attendance" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_RollCallQueue_Attendance" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Attendance_Portfolio_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Attendance_Portfolio_PortfolioSetting" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Attendance_Portfolio_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_BatchTimeSheets_Org1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_TimeSheet_BatchTimeSheets" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Billing_BookingTemplate" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Billing_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Billing_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Billing_PromoCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Billing_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Billing_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_BillingDiscount_Billing" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_BillingExtra_Billing" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Booking_Billing" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_BookingAudit_Billing" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ChildDiscountHistoryLookup_Billing" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CreditNote_Billing" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_DefaultBillingDiscount_Billing" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Invoice_Billing" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Payment_Billing" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroEditBookingQueue_Billing" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_BillingExtra_XeroItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_BillingExtra_XeroTrackingCatOption" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Booking_Child1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Booking_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Booking_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Booking_ProgramCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Booking_Spt_Booking" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Booking_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Booking_XeroItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Booking_XeroTrackingCatOption" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ChildDiscountHistoryLookup_Booking" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Booking_Spt_Site_Program_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Booking_Spt_XeroItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Booking_Spt_XeroTrackingCatOption" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CreditNote_LineItem_Booking_Spt" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_InvoiceLine_Booking_Spt" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SiteGroup_Booking_Spt_Booking_Spt" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_BookingAudit_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_BookingTemplate_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_BookingTemplateQueue_BookingTemplate" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_BookingTemplateQueue_Child_BookingTemplateQueue" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_BookingTemplateQueue_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_BookingTemplateQueue_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_BookingTemplateQueue_Child_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_BookingTypeRule_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Child_Condition_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Child_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Child_Contact_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Child_EmergencyContact1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Child_EmergencyContact2" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Child_Media_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Child_School" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Child_Timeline_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ChildDiscount_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ChildNotes_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Guardian_Child_Child1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Org_Child_Child1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OscarDeclaration_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OscarDelaration_Child_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OscarTracking_Child_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_RollCallQueue_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Subsidy_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_Child_Child" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Child_Condition_Condition" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Child_Contact_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Child_Media_Media" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Child_Timeline_Timeline" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ChildDiscount_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ChildDiscount_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ChildDiscount_ProgramCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ChildDiscountHistoryLookup_ChildDiscount" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SessionDiscount_ChildDiscount" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ChildDiscountHistoryLookup_InvoiceLine" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_City_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Contact_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Guardian_Child_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Org_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Org_Contact_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_School_Contact_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SignoutSignature_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_Contact_Contact" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ContactGroup_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ContactGroup_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgCustomize_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PublicHoliday_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CreditNote_AllocatedInvoice_CreditNote" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CreditNote_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroCreditNoteQueue_CreditNote" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CreditNote_LineItem_XeroItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroCreditNote_AllocatedInvoice_OldInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CssBilling_CssSubscription" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CssBillingGroup_CssBillingGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CssBillingGroup_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CssBillingGroup_Org_CssBillingGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CssBillingGroup_Org_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CssBillingPlanDetails_CssBillingPlan" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Org_CssBillingPlan" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CssBillingPlanDetails_CssBillingRule" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CssSubscription_CssBillingPlanDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CssBillingRule_CssLookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Org_CSS_BillingRule_CSS_BillingRule" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CssCreditCardAccessCode_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CSS_Invoice_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CssInvoiceLine_CssInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroCSSInvoiceQueue_CssInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroCSSInvoiceUpdateQueue_CssInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CssPaymentSetup_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_CssSubscription_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_DashboardMessage_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_Message_DashboardMessage" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_DashboardViewHistory_ProgramCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_DashboardViewHistory_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_DefaultBillingDiscount_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_DeletingInvoiceQueue_Invoice" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_DeletingInvoiceQueue_OrgSetting" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_EventDuration_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ExcludeDay_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FinancialHistory_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FlyerTemplate_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__FormField__FormI__29D71569" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__FormInsta__FormI__3B01A16B" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__FormTempl__FormI__382534C0" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_FormFieldValue_FormField" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__FormField__FormI__3ED2324F" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__FormInsta__FormT__3BF5C5A4" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_HeadCount_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_HeadCountLine_HeadCount" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ImpersonateUser_ImpersonatedByUser" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ImpersonateUser_ImpersonatedUser" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Invoice_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_InvoiceLine_Invoice" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_InvoicePayment_Invoice" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Payment_Invoice" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Payment_Invoice1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SubsidyPayment_Invoice" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroEditInvoiceQueue_Invoice" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroInvoiceQueue_Invoice" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_InvoiceLine_XeroItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_InvoiceLine_XeroTrackingCatOption" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Media_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Notification_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Org_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgDesign_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgNotificationSetting_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Payment_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PaymentBatch_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Permission_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ProgramCategory_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ProgramCategory_LookupPCType" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ProgramCategory_LookupSignInMethod" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ProgramCategory_LookupSignInStrategy" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ProgramCategory_LookupSignOutMethod" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ProgramCategory_LookupSignOutStrategy" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Site_PaymentOption_PaymentOption" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SubsidyPayment_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_Contact_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_Lookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Media_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Program_Media_Media" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_MessageHistory_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_MessageHistory_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Notification_User_Notification" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_NotificationInstance_Notification" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Notification_User_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_NotificationInstance_RealUser" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_NotificationInstance_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_NotificationReminder_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Org_Child_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Org_Contact_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Org_CSS_BillingRule_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Org_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Org_School" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Org_Territory" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Org_User_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgCustomize_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgDesign_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgNotificationSetting_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgReference_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgReferenceSetting_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgSetting_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgTandC_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OscarCoC_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OscarDeclaration_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OscarDelaration_Child_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OscarSetting_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OscarTracking_Child_Org1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OscarTracking_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PaymentBatch_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PortfolioSetting_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Program_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ProgramCategory_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PromoCode_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PromoMsgTemplate_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Report_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ReportSubscription_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_School_Org_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Session_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Site_Program_Term_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SiteDPSDetail_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SiteGroup_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SiteNotes_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SitePaymentGateway_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SitePaymentMethod_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Spt_Instance_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_StaffRoster_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Term_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Territory_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_TimeSheet_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_FavouriteSites_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_UserOrgAccess_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroAccountCode_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroContact_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroCreditNoteQueue_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroEditBookingQueue_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroEditInvoiceQueue_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroInvoiceQueue_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroItemCode_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroPaymentQueue_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroProcessorState_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroSubsidyPaymentQueue_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroTrackingCategory_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Org_User_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgSetting_XeroAccountCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgSetting_XeroAccountCode1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgSetting_XeroItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgSetting_XeroItemCode1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgSetting_XeroItemCode10" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgSetting_XeroItemCode11" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgSetting_XeroItemCode2" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgSetting_XeroItemCode3" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgSetting_XeroItemCode4" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgSetting_XeroItemCode5" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgSetting_XeroItemCode6" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgSetting_XeroItemCode7" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgSetting_XeroItemCode8" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgSetting_XeroItemCode9" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgSetting_XeroLookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgSetting_XeroTrackingCatOption" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgSetting_XeroTrackingCatOption1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgSetting_XeroTrackingCatOption2" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OrgSetting_XeroTrackingCatOption3" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OSCARBankAcc" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OscarCoC_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OscarDeclaration_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OscarDeclaration_Term1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OscarDeclaration_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OscarDelaration_Child_Site_Program_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OscarDelaration_Child_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_OscarSetting_OscarSetting" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OscarTracking_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OscarTracking_Child_Org" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OscarTracking_Child_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_OutgoingMessage_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Payment_PaymentBatch" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroPaymentQueue_Payment" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PaymentBatch_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_Permission_Permission" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Program_Media_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Program_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Program_ProgramCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Program_Session_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Program_Tags_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Program_XeroCasualItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Program_XeroFullTimeItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Program_XeroHolFTItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Program_XeroHolPTAMItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Program_XeroHolPTPMItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Program_XeroHolShortItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Program_XeroHolTripItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Program_XeroPartTimeItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Program_XeroSpecialItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Program_XeroTrackingCatOption" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Site_Program_Term_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Spt_Instance_Program" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Program_Session_Session" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Program_Session_XeroItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Site_Program_Term_ProgramCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SiteNotes_ProgramCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PromoCode_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PromoCodeUsage_PromoCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_PromoCodeUsage_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_QrCode_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ReportPeriod_Report" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ReportSubscription_ReportPeriod" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_ReportSubscriber_ReportSubscription" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_RollCallQueue_SignoutSignature" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_School_Contact_School" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_School_Org_School" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_School_School" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Session_XeroItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SessionDiscount_Session" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Site_Program_Term_Site_Program_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Site_Program_Term_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Site_Program_Term_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Site_Program_Term_XeroCasualItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Site_Program_Term_XeroFullTimeItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Site_Program_Term_XeroHolFullTimeItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Site_Program_Term_XeroHolPartTimeAMItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Site_Program_Term_XeroHolPartTimePMItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Site_Program_Term_XeroHolShortItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Site_Program_Term_XeroHolTripItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Site_Program_Term_XeroPartTimeItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Site_Program_Term_XeroSpecialItemCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Site_Program_Term_XeroTrackingCatOption" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Spt_ExcludeDays_Site_Program_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Spt_Instance_Site_Program_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Spt_Session_Site_Program_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Spt_SiteGroup_Site_Program_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SiteGroup_Booking_SiteGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Spt_SiteGroup_SiteGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Spt_Instance_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_StaffAvailability" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_StaffClock_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_StaffClockSignature_StaffRoster" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_StaffRoster_StaffRoster" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_StaffRoster_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_StaffRosterHistory_StaffRoster" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_TimeSheet_StaffRoster" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Subsidy_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SubsidyPayment_Subsidy" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SubsidyPayment_SubsidyPaymentIndex" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_SubsidyPayment_XeroAccountCode" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroSubsidyPaymentQueue_SubsidyPayment" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Term_Term" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Timeline_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_TimeSheet_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_Child_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_Contact_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_FavouriteSites_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_Message_User_Message" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_OscarSetting_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_User_Permission_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_UserOrgAccess_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroInvoice_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroInvErrorQueue_XeroInvoiceQueue" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroInvoice_XeroLookup" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroInvoiceLine_XeroInvoice" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_XeroTrackingCatOption_XeroTrackingCategory" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

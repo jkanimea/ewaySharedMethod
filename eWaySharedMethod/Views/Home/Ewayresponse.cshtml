@@ -1,0 +1,25 @@
+﻿@Model
+
+<h4>Eway Response</h4>
+
+
+@if ( ViewBag.response.TransactionStatus.Status) {
+
+<a> Transaction was successfully</a> <br />
+    <a>This is your token id @ViewBag.token</a>    <br />
+    <a> Transaction Invoice Number is @ViewBag.response.Transaction.PaymentDetails.InvoiceNumber</a><br />
+    <a> Product description is @ViewBag.response.Transaction.PaymentDetails.InvoiceDescription</a><br />
+    <a> Total Cost is @ViewBag.response.Transaction.PaymentDetails.TotalAmount</a>
+}
+else if ((ViewBag.response.TransactionStatus.Status == false) && (ViewBag.token != null))
+{
+   <a>This was a transaction with no payment</a> <br />
+   <a>Your Token id is @ViewBag.token</a>
+}
+else if (ViewBag.response.TransactionStatus.Status == false)
+{
+    <a> Transaction was not successfully</a>
+}
+
+<br />
+<a href="/Home/Index">Back to Home</a>
